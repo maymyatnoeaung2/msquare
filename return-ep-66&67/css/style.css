@@ -1,0 +1,19 @@
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center ;
+    flex-direction:column;
+    margin-top:2rem;
+}
+
+.inputTag{
+    padding:0.6rem;
+    width:500px;
+}
+
+.listItemName{
+    border:1px solid bisque;
+    padding:5px 10px;
+    background-color: bisque;
+    border-radius:5px;
+}

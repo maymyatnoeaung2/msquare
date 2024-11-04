@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color:#343a40;
+    height:100vh;
+}
+
+.container{
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.playListContainer{
+    margin-top: 2rem;
+}
+
+
+
+.currentAndTotalTime{
+color:#fff;
+margin-top: 3rem;
+}
+
+#progress{
+    width:500px;
+    height:5px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#currentProgress{
+width:0px;
+height:100%;
+background-color: #dc3545;
+}
+.musicPlayer{
+    font-size: 20px;
+    color:#fff;
+    display:flex;
+   
+}
+
+.fa-solid{
+    padding:10px;
+    margin:10px;
+}
+
+i.fa-solid.fa-pause {
+    display: none;
+} 
+
+.trackItem{
+    color:#ffc107;
+    font-size: 20px;
+    user-select: none;
+    padding:10px 0;
+    cursor:pointer;
+}

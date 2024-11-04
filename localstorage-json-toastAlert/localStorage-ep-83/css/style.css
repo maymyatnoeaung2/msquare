@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343a40;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 5rem;
+}
+
+#comment {
+  padding: 10px;
+}
+
+#button {
+  padding: 5px 10px;
+  border: unset;
+  border-radius: 5px;
+  background-color: rgb(29, 197, 197);
+  color: #fff;
+}
+
+.input-container {
+  width: 60%;
+}
+
+#textInput{
+    width: 100%;
+    padding: 10px;
+    border: unset;
+    border-radius: 5px;
+  margin-bottom: 10px;
+background-color: #4d5660;
+color: #fff;
+}

@@ -1,0 +1,40 @@
+.parent {
+  background-color: #1d3557;
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 300px;
+  position: relative;
+}                              
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 10px;
+  /* position: relative; */
+
+  /* position: absolute; */
+  /* z-index: -1; */
+}
+
+.box1 {
+  background-color: blanchedalmond;
+  position: absolute;
+  /* top:0px; */
+  left: 0px; 
+}
+
+.box2 {
+  background-color: yellowgreen;
+  position: absolute;
+  right:50px;
+  z-index: 1;
+}
+
+.box3 {
+  background-color: plum;
+  position: absolute;
+bottom: 0px;
+}

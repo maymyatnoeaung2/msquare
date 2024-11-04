@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #343a40;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.commentInputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-control {
+  padding: 10px;
+  border: unset;
+  border-radius: 5px;
+  border: 1px solid rgba(10, 212, 212, 0.754);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 10px 15px;
+  border: unset;
+  background-color: rgba(10, 212, 212, 0.754);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.commentContainer {
+}

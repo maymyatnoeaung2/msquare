@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cancel & Not</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./date.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputDate">
+        <input type="date" id="date" />
+      </div>
+      <div class="card">
+        <button id="addBtn">Add Service</button>
+        <button id="cancelBtn">Cancel Service All</button>
+        </div>
+
+        <div id="recordContainer"></div>
+      </div>
+<!-- 
+      <div class="addRecord">
+        <div class="recordRow">
+          <span class="appointmentText">Your appointment time is</span>
+          <span class="appointmentDate">12.06.2024</span>
+        </div>
+      </div>
+    </div> -->
+
+    <template id="template">
+     
+        <div class="addRecord">
+          <div class="recordRow">
+            <span class="appointmentText">Your appointment time is</span>
+            <span class="appointmentDate">12.06.2024</span>
+          </div>
+          <div class="recordCard">
+            <button class="cancelTime">Cancel</button>
+          </div>
+        </div>
+      
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./date.js"></script>
+  </body>
+</html>

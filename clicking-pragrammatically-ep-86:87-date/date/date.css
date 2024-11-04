@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #343a40;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 3rem;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+#date {
+  border: unset;
+  color: #fff;
+  background-color: #446282;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#addBtn {
+  border: unset;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(0, 186, 124);
+  color: #fff;
+  margin-right: 1rem;
+}
+
+#cancelBtn {
+  border: unset;
+  padding: 10px 20px;
+  background-color: rgb(175, 42, 19);
+  border-radius: 5px;
+  color: #fff;
+}
+
+#recordContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.addRecord{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 2rem;
+}
+
+.recordRow {
+  width: 285px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #446282;
+  border-radius: 5px;
+}
+
+.appointmentText,
+.appointmentDate {
+  background-color: transparent;
+  color: #fff;
+}
+
+.appointmentDate{
+  color: rgb(0, 186, 124);
+font-size: 18px;
+font-weight: bold;
+
+}
+
+.cancelTime{
+  border: unset;
+  background-color: rgb(175, 42, 19);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+ 
+}
